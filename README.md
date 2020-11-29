@@ -1,3 +1,35 @@
+What is this?
+This is a simple Machine learning React app that detects face from a web camera in real time using a pre-trained model from tensorflow called `@tensorflow-models/blazeface`. This app is cappable of faces from a web camera in real time and draw a rectangle around some face points.
+
+## This app is using
+
+- React WebCam
+- Tensorflow
+
+## Installation of required dependencies
+
+## Installation of React WebCam
+
+`$ npm i react-webcam`
+
+## Installation of tensorflow and the pretrained model for face detection model
+
+`$ npm i @tensorflow/tfjs @tensorflow-models/blazeface @tensorflow/tfjs-converter`
+
+## Scripts tags
+
+In order for this application to work we must include the following scripts in the index.html
+
+```
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+```
+
+## The URL to the repository of blazeface models.
+
+[click here](https://github.com/tensorflow/tfjs-models/tree/master/blazeface)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
