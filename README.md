@@ -1,4 +1,4 @@
-What is this?
+# What is this?
 This is a simple Machine learning React app that detects face from a web camera in real time using a pre-trained model from tensorflow called `@tensorflow-models/blazeface`. This app is cappable of faces from a web camera in real time and draw a rectangle around some face points.
 
 ## This app is using
